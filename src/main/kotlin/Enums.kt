@@ -35,6 +35,8 @@ enum class IntArithmetics : BinaryOperator<Int>, IntBinaryOperator {
 }
 
 fun main() {
+    var a = 12;
+
 
     println(Direction.WEST)
     println(ProtocolState.TALKING.customValue())
